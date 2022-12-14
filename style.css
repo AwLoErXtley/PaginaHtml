@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(228, 208, 208);
+}
+.header_container{
+    width: 90%;
+    margin: auto;
+    
+}
+.Logo_nav{
+    height: 80px;
+}
+.nav_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav_main ul{
+    flex: 1;
+    margin-left: 20px;
+    display: flex;
+}
+.nav_main ul li{
+    padding: 20px;
+    list-style: none;
+}
